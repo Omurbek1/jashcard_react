@@ -1,0 +1,308 @@
+.About {
+  width: 80%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+.About-text {
+  width: 40%;
+}
+.about-card {
+  width: 50%;
+  filter: drop-shadow(8px 8px 10px gray);
+  transform: rotate(5.42deg);
+}
+.about-card img {
+  margin-left: 15%;
+}
+.About-text h1 {
+  width: 30%;
+  top: 10%;
+  margin-bottom: 5%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+.About-text hr {
+  width: 100%;
+  border: 1px solid #ffc705;
+}
+.About-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 5%;
+  width: 90%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+button {
+  width: 45%;
+  background: transparent;
+  margin-top: 5%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+}
+.getbtn {
+  color: #f43b80;
+  border: #f43b80 1px solid;
+}
+.morebtn {
+  color: #ffc705;
+  border: #ffc705 1px solid;
+}
+@media screen and (max-width: 1025px) {
+  .About {
+    width: 80%;
+    margin-left: 7%;
+  }
+  .About-text {
+    width: 50%;
+  }
+
+  .about-card img {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .About-text h1 {
+    width: 30%;
+    top: 7%;
+    margin-bottom: 3%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.035em;
+  }
+  .About-text hr {
+    width: 100%;
+    border: 1px solid #ffc705;
+  }
+  .About-text p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 5%;
+    width: 95%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+  button {
+    width: 45%;
+    background: transparent;
+    margin-top: 5%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .About {
+    width: 80%;
+    margin-left: 9%;
+  }
+  .About-text {
+    width: 70%;
+  }
+
+  .about-card img {
+    margin-left: 10%;
+    width: 90%;
+    margin-top: 5%;
+  }
+  .About-text h1 {
+    width: 30%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.035em;
+  }
+  .About-text hr {
+    width: 100%;
+    border: 1px solid #ffc705;
+  }
+  .About-text p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  button {
+    width: 45%;
+    background: transparent;
+    margin-top: 5%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .About {
+    width: 80%;
+    margin-left: 9%;
+    display: grid;
+    justify-content: space-around;
+  }
+  .About-text {
+    width: 100%;
+  }
+
+  .about-card img {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+  }
+  .about-card {
+    width: 100%;
+  }
+  .About-text h1 {
+    width: 30%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.035em;
+  }
+  .About-text hr {
+    width: 100%;
+    border: 1px solid #ffc705;
+  }
+  .About-text p {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    font-size: 15px;
+  }
+  button {
+    width: 40%;
+    background: transparent;
+    margin-top: 5%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .About {
+    width: 80%;
+    margin-left: 9%;
+    display: grid;
+    justify-content: space-around;
+  }
+  .About-text {
+    width: 100%;
+  }
+
+  .about-card img {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+  }
+  .about-card {
+    width: 100%;
+  }
+  .About-text h1 {
+    width: 50%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.035em;
+  }
+  .About-text hr {
+    width: 100%;
+    border: 1px solid #ffc705;
+  }
+  .About-text p {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    width: 95%;
+    padding: 0px;
+  }
+  button {
+    width: 40%;
+    background: transparent;
+    margin-top: 5%;
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .About {
+    width: 80%;
+    margin-left: 9%;
+    display: grid;
+    justify-content: space-around;
+  }
+  .About-text {
+    width: 100%;
+  }
+
+  .about-card img {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+  }
+  .about-card {
+    width: 100%;
+  }
+  .About-text h1 {
+    width: 50%;
+    margin-top: -85%;
+    margin-bottom: 3%;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.035em;
+  }
+  .About-text hr {
+    width: 100%;
+    border: 1px solid #ffc705;
+  }
+  .About-text p {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+  button {
+    width: 47%;
+    font-size: 12px;
+    background: transparent;
+    margin-top: 5%;
+    padding: 3%;
+  }
+}

@@ -1,0 +1,280 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  padding-left: 10%;
+  margin-left: 0%;
+}
+.logo {
+  width: 12%;
+  margin-left: 5%;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 95%;
+  margin-right: 10%;
+}
+.news,
+.map,
+.partner,
+.form,
+.russian {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.035em;
+  color: #000000;
+  padding: 10px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.russian {
+  text-align: right;
+  margin-left: 35%;
+}
+.russian img {
+  position: absolute;
+  width: 3%;
+  left: 82%;
+  top: 1.8%;
+}
+.mobile-menu-icon {
+  display: none;
+  margin-top: -2%;
+}
+@media screen and (max-width: 769px) {
+  .navbar {
+    margin-bottom: 2%;
+    width: 90%;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 20%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+
+    display: block;
+    list-style: none;
+    background-color: aliceblue;
+    left: 0;
+    color: #000;
+    top: 0%;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .news,
+  .map,
+  .partner,
+  .form,
+  .russian {
+    color: #000;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .russian img {
+    margin-top: 25%;
+    left: 42%;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    width: 20%;
+    top: -1.5%;
+    margin-left: 89%;
+    color: #f43b80;
+  }
+}
+@media screen and (max-width: 415px) {
+  .navbar {
+    margin-bottom: 2%;
+    width: 80%;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 28%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+
+    display: block;
+    list-style: none;
+    background-color: aliceblue;
+    left: 0;
+    color: #000;
+    top: 0%;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .news,
+  .map,
+  .partner,
+  .form,
+  .russian {
+    color: #000;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .russian img {
+    margin-top: 45%;
+    left: 33%;
+    width: 8%;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    width: 0;
+    top: -1.5%;
+    margin-left: 79%;
+    color: #f43b80;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navbar {
+    margin-bottom: 2%;
+    width: 80%;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 34%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+
+    display: block;
+    list-style: none;
+    background-color: #fff;
+    left: 0;
+    color: #000;
+    top: 0%;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .news,
+  .map,
+  .partner,
+  .form,
+  .russian {
+    color: #000;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .russian img {
+    margin-top: 51%;
+    left: 33%;
+    width: 8%;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    font-size: 60px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    width: 10%;
+    top: -1%;
+    margin-left: 81%;
+    color: #f43b80;
+  }
+}
+@media screen and (max-width: 321px) {
+  .navbar {
+    margin-bottom: 2%;
+    width: 80%;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 44%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+
+    display: block;
+    list-style: none;
+    background-color: aliceblue;
+    left: 0;
+    color: #000;
+    top: 0%;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .news,
+  .map,
+  .partner,
+  .form,
+  .russian {
+    color: #000;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .russian img {
+    margin-top: 60%;
+    left: 31%;
+    width: 8%;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    font-size: 60px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    width: 10%;
+    top: -1%;
+    margin-left: 77%;
+    color: #f43b80;
+  }
+}

@@ -1,0 +1,284 @@
+.carousel-div {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 6%;
+}
+.carousel-div h1 {
+  width: 50%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  top: 4%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  letter-spacing: 0.035em;
+
+  color: #000000;
+}
+.carousel-div p {
+  width: 60%;
+
+  margin-left: 2%;
+  top: 5%;
+  margin-bottom: 3%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+.carousel-div img {
+  display: flex;
+  margin: 2%;
+  width: 90%;
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+.img {
+  margin-left: 5%;
+}
+@media screen and (max-width: 1025px) {
+  .carousel-div h1 {
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 40px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .carousel-div h1 {
+    width: 80%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+  .carousel-div p {
+    width: 95%;
+
+    margin-left: 2%;
+    top: 5%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+
+    color: #000000;
+  }
+  .carousel-div img {
+    width: 90%;
+  }
+  .img {
+    margin-left: 5%;
+  }
+}
+
+.react-multi-carousel-item {
+  /* border-bottom: #000000 solid 1px; */
+  height: 380px;
+}
+.carousel-div hr {
+  border: 1px solid #f43b80;
+  margin-top: -9%;
+  width: 50%;
+  margin-left: 0%;
+}
+.react-multiple-carousel__arrow-right {
+  background-color: transparent;
+  border: none;
+}
+.custom-button-group {
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 22%;
+}
+@media screen and (max-width: 1025px) {
+  .carousel-div hr {
+    margin-top: -20%;
+  }
+  .custom-button-group {
+    margin-left: 90%;
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .carousel-div hr {
+    margin-top: -30%;
+  }
+  .custom-button-group {
+    margin-left: 90%;
+    margin-top: 10%;
+  }
+  .carousel-div h1 {
+    width: 60%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+  .carousel-div p {
+    width: 75%;
+
+    margin-left: 2%;
+    top: 5%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+
+    color: #000000;
+  }
+}
+@media screen and (max-width: 415px) {
+  .carousel-div hr {
+    margin-top: -70%;
+  }
+  .custom-button-group {
+    margin-left: 84%;
+    margin-top: -8%;
+  }
+  .carousel-div h1 {
+    width: 100%;
+
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+  .carousel-div p {
+    width: 100%;
+
+    margin-left: 2%;
+    top: 5%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+  }
+}
+@media screen and (max-width: 376px) {
+  .carousel-div hr {
+    margin-top: -80%;
+  }
+  .custom-button-group {
+    margin-left: 83%;
+    margin-top: -20%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .carousel-div hr {
+    display: none;
+  }
+  .custom-button-group {
+    margin-left: 83%;
+    margin-top: -80%;
+  }
+  .carousel-div h1 {
+    width: 100%;
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+  .carousel-div p {
+    width: 100%;
+
+    margin-left: 2%;
+    top: 5%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+  }
+}
+@media screen and (max-width: 391px) {
+  .carousel-div hr {
+    margin-top: -75%;
+  }
+  .custom-button-group {
+    margin-left: 83%;
+    margin-top: -20%;
+  }
+  .carousel-div h1 {
+    width: 100%;
+
+    margin-left: 2%;
+    top: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+  }
+  .carousel-div p {
+    width: 100%;
+
+    margin-left: 2%;
+    top: 5%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+  }
+}

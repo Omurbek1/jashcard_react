@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67d211b2.css",
+    "main.js": "/static/js/main.8d3cebe5.js",
+    "static/media/banner.png": "/static/media/banner.97490cd7e460a014904b.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/card2.png": "/static/media/card2.a71e7e7d46c2c759b1a2.png",
+    "static/media/card.png": "/static/media/card.84a14033fe273b040657.png",
+    "static/media/user3.png": "/static/media/user3.6f27140627bae6c48286.png",
+    "static/media/user1.png": "/static/media/user1.fa1aae1f71f49465c027.png",
+    "static/media/user2.png": "/static/media/user2.fa5b774d705ce2453998.png",
+    "static/media/user4.png": "/static/media/user4.52fa8052f2772e8d4572.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/logo.png": "/static/media/logo.6d0376a2d4760b2100d3.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
+    "index.html": "/index.html",
+    "main.67d211b2.css.map": "/static/css/main.67d211b2.css.map",
+    "main.8d3cebe5.js.map": "/static/js/main.8d3cebe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67d211b2.css",
+    "static/js/main.8d3cebe5.js"
+  ]
+}

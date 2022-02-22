@@ -1,0 +1,195 @@
+.bg-myRed {
+  background-color: crimson;
+}
+
+.content {
+  padding: 12px;
+  height: 3000px;
+}
+
+.coloring {
+  color: black;
+}
+.navbar {
+  width: 80%;
+  margin-left: 10%;
+}
+.navbar-brand {
+  width: 25%;
+}
+.navbar-nav {
+  width: 70%;
+  margin-left: -10%;
+}
+.nav-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 100%;
+  /* identical to box height */
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.035em;
+
+  color: #000000;
+}
+.flag {
+  width: 50%;
+  height: 30px;
+}
+@media screen and (max-width: 1025px) {
+  .navbar {
+    width: 90%;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+  .navbar-brand {
+    width: 25%;
+  }
+  .navbar-nav {
+    width: 70%;
+    margin-left: -10%;
+  }
+  .nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: auto;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+  }
+  .list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+
+    color: #000000;
+  }
+  .flag {
+    width: 50%;
+    height: 30px;
+    margin-left: -8%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .navbar {
+    width: 92%;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 5%;
+  }
+  .navbar-brand {
+    width: 30%;
+  }
+  .navbar-nav {
+    width: 100%;
+    margin-left: -20%;
+  }
+  .nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: auto;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+  }
+  .navbar-collapse {
+    width: 40%;
+  }
+  .list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    line-height: 2px;
+
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .list h4 {
+    font-size: 17px;
+  }
+  .flag {
+    width: 40%;
+    height: 30px;
+    margin-left: -8%;
+    margin-top: -8px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .navbar {
+    width: 88%;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  .navbar-brand {
+    width: 50%;
+  }
+  .navbar-nav {
+    width: 90%;
+    margin-left: -20%;
+  }
+  .coloring {
+    color: #fff;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  .nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: auto;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+  }
+  .navbar-collapse {
+    width: 40%;
+  }
+  .list {
+    display: none;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .list h4 {
+    font-size: 17px;
+  }
+  .flag {
+    width: 40%;
+    height: 30px;
+    margin-left: -8%;
+    margin-top: -8px;
+  }
+}
